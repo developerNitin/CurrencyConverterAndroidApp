@@ -23,7 +23,7 @@
         app:srcCompat="@drawable/cc" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/amountEditText"
         android:layout_width="409dp"
         android:layout_height="72dp"
         android:layout_marginStart="30dp"
@@ -54,8 +54,9 @@
         android:layout_marginRight="173dp"
         android:layout_marginBottom="125dp"
         android:background="#9BCF62"
+        android:onClick="convertButton"
         android:padding="15sp"
-        android:text="Button"
+        android:text="convert"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
